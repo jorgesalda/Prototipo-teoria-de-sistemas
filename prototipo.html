@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Relaciones con Socios Comerciales</title>
+    <link rel="stylesheet" href="prototipo2.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Gestión de Relaciones con Socios Comerciales</h1>
+        <p>Protección de datos financieros y personales</p>
+    </header>
+
+    <!-- Sección de Inicio de Sesión -->
+    <section class="seccion-login">
+        <h2>Inicio de Sesión</h2>
+        <form>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Ingresar</button>
+        </form>
+    </section>
+
+    <!-- Sección de Panel de Control -->
+    <section class="seccion-paneldecontrol">
+        <h2>Panel de Control</h2>
+        <div class="socios">
+            <h3>Lista de Socios Comerciales</h3>
+            <ul>
+                <li>Socio 1 - <span class="status">Conectado</span></li>
+                <li>Socio 2 - <span class="status">Desconectado</span></li>
+                <li>Socio 3 - <span class="status">Conectado</span></li>
+                <li>Socio 4 - <span class="status">Desconectado</span></li>
+            </ul>
+        </div>
+        <div class="control-de-seguridad">
+            <h3>Controles de Seguridad</h3>
+            <button>Activar Autenticación de Dos Factores</button>
+            <button>Revocar Acceso</button>
+            <button>Generar Informe de Seguridad</button>
+        </div>
+    </section>
+</body>
+</html>

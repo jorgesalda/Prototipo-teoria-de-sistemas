@@ -1,0 +1,133 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #0059b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1em;
+    font-style: italic;
+}
+
+/* Sección de Inicio de Sesión */
+.seccion-login {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.seccion-login h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.seccion-login label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.seccion-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.seccion-login  button {
+    background-color: #0059b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.seccion-login  button:hover {
+    background-color: #004080;
+}
+
+/* Sección de Panel de Control */
+.seccion-paneldecontrol {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-paneldecontrol h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.socios, .control-de-seguridad {
+    margin-top: 20px;
+}
+
+.socios ul {
+    list-style-type: none;
+}
+
+.socios li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e9f2ff;
+    border: 1px solid #0059b3;
+    border-radius: 5px;
+}
+
+.status {
+    font-weight: bold;
+    color: #008000;
+}
+
+.status:contains("Desconectado") {
+    color: #d9534f;
+}
+
+.control-de-seguridad button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0059b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.control-de-seguridad button:hover {
+    background-color: #004080;
+}
